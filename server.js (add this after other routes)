@@ -1,0 +1,13 @@
+app.get("/api/event/:eventId/messages", async (req, res) => {
+  const { eventId } = req.params;
+  const messages = await Message.find({ event: eventId })
+    .populate("sender", "username")
+    .sort("time");
+  res.json({
+    messages: messages.map((m) => ({
+      sender: m.sender.username,
+      text: m.text,
+      time: m.time,
+    })),
+  });
+});
