@@ -1,4 +1,3 @@
-```markdown
 # 🎉 MERN-Real-Time-Local-Event-Matcher
 
 A **MERN stack** web app that instantly connects people looking to organize or join spontaneous local events and activities—right in their area, in real time! Using geolocation and sockets, users can discover, create, and join events, then chat instantly with nearby participants. Perfect for flash meetups, pick-up sports, group study, or impromptu gatherings.
@@ -108,5 +107,4 @@ Thanks for checking out this project! If you use or extend it, please credit and
 
 ```
 Happy matching and meeting! 🎈
-```
 ```
